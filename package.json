@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon fakely.js"
+    "start": "nodemon fakely.js",
+    "migrate": "npx knex migrate:latest --knexfile db/knexfile.js"
   },
   "repository": {
     "type": "git",
