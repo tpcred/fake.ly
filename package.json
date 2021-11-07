@@ -1,0 +1,28 @@
+{
+  "name": "fake.ly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon fakely.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpcred/fake.ly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpcred/fake.ly/issues"
+  },
+  "homepage": "https://github.com/tpcred/fake.ly#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.13",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
