@@ -7,5 +7,6 @@ const urlencodedParser = bodyParser.urlencoded({ extended: false })
 const linkController = require('../controller/link')
 
 router.post('/link', urlencodedParser, linkController.createLink);
+router.get('/:hash', linkController.getLink)
 
 module.exports = router;
