@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/tpcred/fake.ly#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "knex": "^0.95.13",
+    "object-hash": "^2.2.0",
     "pg": "^8.7.1"
   },
   "devDependencies": {

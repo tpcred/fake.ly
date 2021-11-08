@@ -8,7 +8,7 @@ exports.up = function(knex) {
     }).createTable('link', (table) => {
       table.increments('id');
       table.string('link');
-      table.string('short_link');
+      table.string('short_link').notNullable().unique();
       table.string('times_shortened');
       table.string('short_uses');
   })
